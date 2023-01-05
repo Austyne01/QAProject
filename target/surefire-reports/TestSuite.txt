@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.342 s <<< FAILURE! - in TestSuite
+createuser(TestCase002_Post_Request)  Time elapsed: 7.229 s  <<< FAILURE!
+java.net.ConnectException: Connection refused: connect
+	at TestCase002_Post_Request.createuser(TestCase002_Post_Request.java:35)
+
